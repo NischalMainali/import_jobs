@@ -3,11 +3,14 @@ pipeline {
 	agent any
 	
 	stages {
+	   
 		stage('build'){
-
-		sh 'cd /home/user && mkdir newdir1'	
+	          steps {
+		    sh 'cd /home/user && mkdir newdir1'	
 
 }
+}
+
 }
 
 }
