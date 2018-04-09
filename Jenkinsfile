@@ -6,7 +6,7 @@ pipeline {
 	   
 		stage('build'){
 	          steps {
-		    sh 'cd /home/jenkins && mkdir newdir1'	
+		    sh 'cd /var/lib/jenkins && mkdir newdir1'	
 
 }
 }
